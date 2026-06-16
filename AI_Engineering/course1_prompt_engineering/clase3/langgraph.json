@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "routing": "./graph.py:graph"
+  },
+  "env": "../.env"
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "evaluator_optimizer": "./graph.py:graph"
+  },
+  "env": "../.env"
+}

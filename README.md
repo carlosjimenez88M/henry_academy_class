@@ -38,7 +38,18 @@ Installations will be handled via **uv**; therefore, the following configuration
 
 **AI Engineering**
 
-**Applied Machine Learning**
+#### Course 1 — Prompt Engineering with LangChain & LangGraph
+
+Each class is a self-contained `uv` project, reproducible with `langgraph dev`.
+
+| Class | Objective | Link |
+| --- | --- | --- |
+| Class 1 — Fundamentals | System vs user prompts, zero-shot vs role-based prompting, structured output with Pydantic, and your first LangGraph graph. | [clase1](./AI_Engineering/course1_prompt_engineering/clase1) |
+| Class 2 — Prompt Chaining | Break a hard task into a chain of specialist nodes where the output of each step feeds the next. | [clase2](./AI_Engineering/course1_prompt_engineering/clase2) |
+| Class 3 — Routing | Classify the intent and dispatch each case to the right specialist using conditional edges. | [clase3](./AI_Engineering/course1_prompt_engineering/clase3) |
+| Class 4 — Evaluator-Optimizer | A generator/evaluator loop that improves the output with rubric-based feedback until it passes a measurable threshold. | [clase4](./AI_Engineering/course1_prompt_engineering/clase4) |
+| Class 5 — ReAct | A tool-using agent that reasons and acts step by step, deciding which tool to call and when to stop. Includes a deep final challenge (`RETO.md`). | [clase5](./AI_Engineering/course1_prompt_engineering/clase5) |
+| Bonus — Multi-LLM Comparison | Run the same flow with OpenAI and Gemini in parallel and let an LLM judge return a structured verdict (A/B testing with LLM-as-judge). | [comparativa_llms](./AI_Engineering/course1_prompt_engineering/comparativa_llms) |
 
 ### Webgraphy and Recommended Channels
 
@@ -58,3 +69,15 @@ Installations will be handled via **uv**; therefore, the following configuration
 * [Python Introduction](https://www.youtube.com/watch?v=IimBRwHhW54)
 * [Advanced Python](https://www.youtube.com/watch?v=HGOBQPFzWKo)
 * [LeetCode](https://leetcode.com/problemset/?language=Python)
+* [The LangChain agentic ecosystem explained](https://www.youtube.com/watch?v=6VquSiCBVJs)
+* [Taking Agentic RAG to the next level](https://www.youtube.com/watch?v=UmGLirGbKTk)
+* [Claude Code + Agentic RAG + MCP in action](https://www.youtube.com/watch?v=eMd_0gCy5p4&t=6s)
+* [Gemma 4 on Raspberry Pi 5](https://www.youtube.com/watch?v=kZhAj8--t8w&t=1s)
+
+
+### Blogs 
+
+* [Exploring Language Models](https://newsletter.maartengrootendorst.com/)
+* [jeff Geerling](https://www.jeffgeerling.com/)
+* [GRATITUDE DRIVEN](https://www.gratitudedriven.com/p/is-ai-making-you-dumber)
+
