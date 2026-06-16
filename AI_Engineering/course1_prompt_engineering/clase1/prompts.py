@@ -8,7 +8,9 @@ Idea central de la clase: comparar dos formas de pedirle lo mismo al modelo.
 Mantener los prompts aquí (y no incrustados en el grafo) deja el grafo limpio y
 permite iterar el texto del prompt sin tocar la lógica.
 """
-
+#######################
+# ---- libraries ---- #
+#######################
 from __future__ import annotations
 
 from langchain_core.prompts import ChatPromptTemplate

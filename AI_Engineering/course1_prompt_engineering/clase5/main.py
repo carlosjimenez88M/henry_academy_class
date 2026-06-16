@@ -9,6 +9,10 @@ Con --traza ves el ciclo completo: qué herramientas pidió el agente, con qué
 argumentos y qué le devolvieron. Es la mejor forma de entender ReAct.
 """
 
+#######################
+# ---- libraries ---- #
+#######################
+
 from __future__ import annotations
 
 import argparse

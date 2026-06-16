@@ -8,6 +8,10 @@ CLI de la clase 3 (Routing).
 Verás qué ruta eligió el router y la respuesta del especialista correspondiente.
 """
 
+#######################
+# ---- libraries ---- #
+#######################
+
 from __future__ import annotations
 
 import argparse

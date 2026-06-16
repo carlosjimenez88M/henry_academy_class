@@ -11,13 +11,16 @@ Permite ejecutar el grafo desde la terminal sin abrir LangGraph Studio:
 
 Para la versión visual e interactiva:  uv run langgraph dev
 """
+#######################
+# ---- libraries ---- #
+#######################
 
-from __future__ import annotations
+from __future__ import annotations # Esto sirve para que python no tenga problemas con tipos que se definen despues
 
-import argparse
+import argparse # Sirve para manejar argumentos de la terminal
 
-from graph import graph
-from logger import get_logger
+from graph import graph # Importamos el grafo
+from logger import get_logger # Importamos el logger
 from schemas import PeticionConfig
 
 logger = get_logger("main")

@@ -8,6 +8,10 @@ Imprime TODOS los pasos intermedios para que veas cómo evoluciona el mensaje a
 lo largo de la cadena.
 """
 
+#######################
+# ---- libraries ---- #
+#######################
+
 from __future__ import annotations
 
 import argparse

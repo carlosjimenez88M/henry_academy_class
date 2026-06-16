@@ -13,6 +13,10 @@ Detalle importante: cada paso usa una TEMPERATURA distinta. Los pasos creativos
 (coquetón, poeta) van altos; los de control (naturalizar, verificador) van bajos.
 """
 
+#######################
+# ---- libraries ---- #
+#######################
+
 from __future__ import annotations
 
 from typing import TypedDict

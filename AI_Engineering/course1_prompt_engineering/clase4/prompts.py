@@ -7,6 +7,9 @@ Hay tres prompts:
 2. GENERADOR (mejora): reescribe el borrador atacando el feedback del evaluador.
 3. EVALUADOR: actúa como juez y puntúa con la rúbrica (salida estructurada).
 """
+#######################
+# ---- libraries ---- #
+#######################
 
 from __future__ import annotations
 
