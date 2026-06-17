@@ -9,6 +9,8 @@ probado y a prueba de fallos.
 Trabaja en una carpeta nueva (`reto/`), con su propio `pyproject.toml` y
 `langgraph.json`, igual que las clases.
 
+
+Fecha de entrega: AL acabarlo, no se presione, simplemente hagalo pensandolo!!!
 ---
 
 ## El escenario
