@@ -1,4 +1,4 @@
-# RETO final — Construye un "Concierge de Conversación" (nivel producción)
+# RETO final — Construye un "LO QUE UD QUIERA de Conversación" (nivel producción)
 
 Este reto junta TODO el curso: prompting estructurado (clase 1), chaining
 (clase 2), routing (clase 3), evaluator-optimizer (clase 4) y ReAct con

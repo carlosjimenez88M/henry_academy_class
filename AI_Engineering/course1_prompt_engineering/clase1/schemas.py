@@ -28,7 +28,7 @@ class AperturaCoqueta(BaseModel):
     justificacion: str = Field(
         description="Por qué esta apertura encaja con el perfil de la persona"
     )
-    tono: Literal["divertido", "elegante", "directo", "curioso"] = Field(
+    tono: Literal["divertido", "elegante", "directo", "curioso","sutil"] = Field(
         description="Tono dominante del mensaje"
     )
 

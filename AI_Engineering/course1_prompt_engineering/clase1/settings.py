@@ -60,8 +60,8 @@ class LLMConfig(BaseModel):
     confiar en valores sueltos repartidos por el código.
     """
 
-    model: str = Field(default="gpt-4o-mini")
-    temperature: float = Field(default=0.0, ge=0.0, le=2.0)
+    model: str = Field(default="gpt-5.1-mini")
+    temperature: float = Field(default=0.0, ge=0.0, le=1.0)
 
 
 ###################################################

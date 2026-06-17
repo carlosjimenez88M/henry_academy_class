@@ -60,7 +60,7 @@ class LLMConfig(BaseModel):
     confiar en valores sueltos repartidos por el código.
     """
 
-    model: str = Field(default="gpt-4o-mini")
+    model: str = Field(default="gpt-5.4-mini")
     temperature: float = Field(default=0.0, ge=0.0, le=2.0)
 
 
@@ -68,7 +68,7 @@ class LLMConfig(BaseModel):
 # ---- Fábrica del LLM (perezosa + cacheada) ---- #
 ###################################################
 @lru_cache(maxsize=None)
-def get_llm(model: str = "gpt-4o-mini", temperature: float = 0.0) -> ChatOpenAI:
+def get_llm(model: str = "gpt-5.4-mini", temperature: float = 0.0) -> ChatOpenAI:
     """Devuelve un ChatOpenAI configurado, reutilizando la misma instancia.
 
     La caché evita reconstruir el cliente en cada nodo del grafo. La clave de

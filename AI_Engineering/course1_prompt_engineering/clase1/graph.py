@@ -47,6 +47,7 @@ class State(TypedDict):
 ####################################
 # ---- Nodo: generar_apertura ---- #
 ####################################
+
 def generar_apertura(state: State) -> dict:
     """Genera la apertura usando el prompt del modo indicado y salida tipada."""
     modo = state.get("modo", "role")

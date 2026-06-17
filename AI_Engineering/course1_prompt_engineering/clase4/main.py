@@ -27,7 +27,7 @@ logger = get_logger("main")
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Clase 4 — Evaluator-Optimizer")
     parser.add_argument("--contexto", "-c", required=True, help="Perfil y situación")
-    parser.add_argument("--umbral", type=float, default=8.0, help="Puntaje mínimo (0-10)")
+    parser.add_argument("--umbral", type=float, default=6.0, help="Puntaje mínimo (0-10)")
     parser.add_argument(
         "--max-iteraciones", type=int, default=3, help="Tope de vueltas del ciclo"
     )
